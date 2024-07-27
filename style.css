@@ -130,7 +130,7 @@ ol li:hover a {
 
 .highlights .tagline {
   color: #d7d7d7;
-  font-size: 1.2vw;
+  font-size: 1.5vw;
   text-align: center;
   font-weight: normal;
 }
@@ -493,6 +493,10 @@ span {
 @media screen and (max-width: 900px) {
   .navbar {
     padding: 0 60px;
+  }
+
+  .highlights .tagline {
+    font-size: 3vw;
   }
 
   .navbar ol {
